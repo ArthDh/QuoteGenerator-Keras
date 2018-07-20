@@ -1,2 +1,2 @@
 # QuoteGen
-- [] Upload quotes dump
+- [x] Upload quotes dump
