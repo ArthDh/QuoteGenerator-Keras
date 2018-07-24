@@ -68,10 +68,11 @@ def main():
     word_index = {}
     index2char = {}
 
-    model_path = "/Users/arth/Downloads/quotegen.h5"
+    model_path = "" # Path to model
     model = load_model(model_path)
 
-    with open('/Users/arth/Downloads/word_index.pkl', 'rb') as handle:
+    # Open word_index.pkl
+    with open('', 'rb') as handle:
         word_index = pickle.load(handle)
 
     for ch in word_index:
